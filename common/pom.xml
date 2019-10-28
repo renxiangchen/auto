@@ -115,6 +115,11 @@
   <build>
     <plugins>
       <plugin>
+           <groupId>io.xc5</groupId>
+           <artifactId>xvsa-maven-plugin</artifactId>
+           <version>1.39</version>
+      </plugin>
+      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.7.0</version>
         <configuration>
